@@ -7,11 +7,50 @@
 body html{
     line-height: 1.4;
     font-weight: 300px;
+    font-family: yearsans-serif;
 }
 h1{
 background-color: unchanged;
 }
 .section1{
     background-color: unchanged;
-
+    background-image: url(image/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1 h2{
+    font-size: 35px;
+}
+.text_container{
+    color:azure;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-left: 45px;
+}
+.text_design{
+    font-size: 70px !important;
+    font-weight: 400;
+}
+.black_box {
+    background: #000;
+    color: #ffffff !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.black_box h2{
+    font-weight: 400;
+    font-size: 65px;
+    color: #ffffff;
+    text-align: center;
+}
+.black_box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+.work{
+    display: grid;
 }
